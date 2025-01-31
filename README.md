@@ -21,3 +21,4 @@ This repository contains Python scripts for **visualizing phenotypic trait distr
 ---
 
 ## 📂 File Structure
+📁 QTL-and-Phenotypic-Visualization │── 📄 kg.csv # Input file for phenotypic data visualization │── 📄 QTL-ToxB-01-30-25.csv # Input file for QTL analysis visualization │── 📄 plot_phenotypic_histograms.py # Python script for phenotypic visualization │── 📄 plot_qtl_analysis.py # Python script for QTL LOD score visualization │── 📄 phenotypic_distribution.svg # Output visualization (phenotypic histograms) │── 📄 QTL_Analysis.svg # Output visualization (QTL LOD plot) │── 📄 README.md # Documentation (you are here)
