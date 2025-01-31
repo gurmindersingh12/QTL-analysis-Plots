@@ -37,7 +37,7 @@ pip install pandas matplotlib seaborn
 ## 🚀 Running the Scripts
 Phenotypic Data Visualization
 
-    Ensure your dataset (kg.csv) is in the same directory.
+    Ensure your dataset (file.csv) is in the same directory.
     Run the script:
 
 python plot_phenotypic_histograms.py
@@ -45,7 +45,7 @@ python plot_phenotypic_histograms.py
 ✅ Output: A high-quality phenotypic_distribution.svg file.
 QTL Analysis Visualization
 
-    Ensure your QTL dataset (QTL-ToxB-01-30-25.csv) is in the same directory.
+    Ensure your QTL dataset (QTL-file-with-LOD-scores.csv) is in the same directory.
     Run the script:
 
 python plot_qtl_analysis.py
