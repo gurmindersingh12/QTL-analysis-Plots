@@ -21,8 +21,6 @@ This repository contains Python scripts for **visualizing phenotypic trait distr
 ---
 
 ## 📂 File Structure
-📁 QTL-and-Phenotypic-Visualization │── 📄 kg.csv # Input file for phenotypic data visualization │── 📄 QTL-ToxB-01-30-25.csv # Input file for QTL analysis visualization │── 📄 plot_phenotypic_histograms.py # Python script for phenotypic visualization │── 📄 plot_qtl_analysis.py # Python script for QTL LOD score visualization │── 📄 phenotypic_distribution.svg # Output visualization (phenotypic histograms) │── 📄 QTL_Analysis.svg # Output visualization (QTL LOD plot) │── 📄 README.md # Documentation (you are here)
-
 
 ---
 
@@ -33,7 +31,10 @@ Ensure you have **Python 3.x** installed. Then, install the required libraries:
 ```bash
 pip install pandas matplotlib seaborn
 
-🚀 Running the Scripts
+```
+
+
+## 🚀 Running the Scripts
 Phenotypic Data Visualization
 
     Ensure your dataset (kg.csv) is in the same directory.
@@ -89,9 +90,10 @@ QTL Analysis
     Modify x-axis scaling → Adjust spacing_factor in the chromosome processing section.
     Save as PNG/PDF → Change "svg" to "png" or "pdf" in plt.savefig().
 
-📝 License
+## 📝 License
 
 This project is licensed under the MIT License – feel free to use, modify, and share it.
-👨‍💻 Author
 
-Developed by [Your Name]
+## 👨‍💻 Author
+
+Developed by [Gurminder Singh]
